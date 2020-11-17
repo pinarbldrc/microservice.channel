@@ -1,0 +1,4 @@
+rootProject.name = 'microservice.channel'
+include 'Customer-service'
+include 'Product-service'
+

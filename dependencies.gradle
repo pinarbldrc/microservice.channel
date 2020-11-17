@@ -1,0 +1,47 @@
+ext{
+    versions = [
+            postgresql : "42.2.16",
+            lombok : "1.18.12",
+            swagger : "2.9.2" ,
+            liquibase :"4.0.0" ,
+            mapstruct :"1.3.1.Final",
+            validation :"2.0.1.Final",
+            aspectOriented : "5.2.5.RELEASE",
+            junit : "5.6.2" ,
+            kafka : "2.4.6.RELEASE",
+            springCloud : "2.1.2.RELEASE"
+
+
+
+
+
+    ]
+
+    libs = [
+            postgresql : "org.postgresql:postgresql:$versions.postgresql",
+            lombok : "org.projectlombok:lombok:$versions.lombok",
+            swagger : "io.springfox:springfox-swagger2:$versions.swagger",
+            swaggerui : "io.springfox:springfox-swagger-ui:$versions.swagger",
+            springJpa : "org.springframework.boot:spring-boot-starter-data-jpa",
+            springWeb : "org.springframework.boot:spring-boot-starter-web" ,
+            liquibase : "org.liquibase:liquibase-core:$versions.liquibase" ,
+            springValidation : "org.springframework.boot:spring-boot-starter-validation" ,
+            mapstruct         : "org.mapstruct:mapstruct:$versions.mapstruct",
+            mapstructProcessor: "org.mapstruct:mapstruct-processor:$versions.mapstruct",
+            validation: "javax.validation:validation-api:$versions.validation",
+            aspectOriented : "org.springframework:spring-aop:$versions.aspectOriented" ,
+            junitJupiterEngine :"org.junit.jupiter:junit-jupiter-engine:$versions.junit" ,
+            junitJupiterApi : "org.junit.jupiter:junit-jupiter-api:$versions.junit" ,
+            kafka : "org.springframework.kafka:spring-kafka:$versions.kafka" ,
+            springCloudFeign     : "org.springframework.cloud:spring-cloud-starter-openfeign:$versions.springCloud"
+
+
+
+
+
+    ]
+
+
+
+
+}

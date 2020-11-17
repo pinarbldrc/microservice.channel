@@ -1,0 +1,41 @@
+server:
+  port: 2203
+
+spring:
+  application.name: customer-service
+
+  datasource:
+    platform: postgresql
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/userdatabase
+    username: postgres
+    password: admin
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+  liquibase:
+    enabled: true
+    change-log: classpath:/db.changelog/db.changelog-master.xml
+
+
+
+
+
+
+kafka.logging.level.root: INFO
+
+kafka.com.education.address: 127.0.0.1:9092
+kafka.com.education.topic: test-topic
+kafka.com.education.consumer.groupId: defaultGrpId
+kafka.com.education.consumer.clientId: defaultClId
+kafka.request.timeout.ms: 20000
+kafka.bootstrap.servers: http://localhost:9092
