@@ -29,6 +29,7 @@ dependencies {
     testCompile libs.junitJupiterApi
     testCompile libs.junitJupiterEngine
     implementation libs.kafka
+    implementation libs.javaJwt
 
 
 

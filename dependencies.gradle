@@ -9,7 +9,8 @@ ext{
             aspectOriented : "5.2.5.RELEASE",
             junit : "5.6.2" ,
             kafka : "2.4.6.RELEASE",
-            springCloud : "2.1.2.RELEASE"
+            springCloud : "2.1.2.RELEASE" ,
+            javaJwt : "3.8.2"
 
 
 
@@ -33,7 +34,10 @@ ext{
             junitJupiterEngine :"org.junit.jupiter:junit-jupiter-engine:$versions.junit" ,
             junitJupiterApi : "org.junit.jupiter:junit-jupiter-api:$versions.junit" ,
             kafka : "org.springframework.kafka:spring-kafka:$versions.kafka" ,
-            springCloudFeign     : "org.springframework.cloud:spring-cloud-starter-openfeign:$versions.springCloud"
+            springCloudFeign     : "org.springframework.cloud:spring-cloud-starter-openfeign:$versions.springCloud" ,
+            jsonWebToken: "io.jsonwebtoken:jjwt-api:$versions.jsonWebToken" ,
+            javaJwt           : "com.auth0:java-jwt:$versions.javaJwt",
+
 
 
 

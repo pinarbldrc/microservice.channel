@@ -31,11 +31,7 @@ spring:
 
 
 
-kafka.logging.level.root: INFO
-
-kafka.com.education.address: 127.0.0.1:9092
-kafka.com.education.topic: test-topic
-kafka.com.education.consumer.groupId: defaultGrpId
-kafka.com.education.consumer.clientId: defaultClId
-kafka.request.timeout.ms: 20000
-kafka.bootstrap.servers: http://localhost:9092
+jwt:
+  privatekey: pinar
+  publickey: 123
+  issuer: pinar
